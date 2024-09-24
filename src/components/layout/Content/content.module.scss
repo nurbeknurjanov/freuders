@@ -1,0 +1,36 @@
+@import 'css/breakpoints';
+@import 'css/functions';
+
+.container {
+    flex-grow: 1;
+    min-height: 70vh;
+    max-width: 1184px;
+    padding: 52px 44px 80px 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    @include resolutionDown($tablet) {
+        flex-grow: 0;
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    @include resolutionDown($tablet) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+.center {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+}

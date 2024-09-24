@@ -1,0 +1,1 @@
+export { getPsychologistsObject } from './getPsychologists';

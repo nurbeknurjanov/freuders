@@ -1,0 +1,22 @@
+@import 'css/breakpoints';
+@import 'css/functions';
+
+.logo {
+  color: white;
+  width: 180px;
+  @include resolutionDown($tablet) {
+    width: 90px;
+  }
+}
+
+.logoLink {
+  font-size: 0;
+}
+
+.listMenuLink {
+  display: none;
+
+  @include resolutionDown($tablet) {
+    display: block;
+  }
+}

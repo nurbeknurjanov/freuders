@@ -1,0 +1,1 @@
+export { ProductModalView } from './ProductModalView';

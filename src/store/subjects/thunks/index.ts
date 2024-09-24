@@ -1,0 +1,1 @@
+export { getSubjectsThunk } from './getSubjects';

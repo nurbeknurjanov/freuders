@@ -1,0 +1,1 @@
+export { FileModalDelete } from './FileModalDelete';

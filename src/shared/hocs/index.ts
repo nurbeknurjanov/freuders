@@ -1,0 +1,1 @@
+export { withPageWrapper } from './withPageWrapper';

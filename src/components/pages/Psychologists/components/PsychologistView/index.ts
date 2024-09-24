@@ -1,0 +1,1 @@
+export { PsychologistView } from './PsychologistView';

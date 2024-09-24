@@ -1,0 +1,148 @@
+{
+  "Common": {
+    "home": "Главная",
+    "search": "Поиск",
+    "reset": "Сброс",
+    "back": "Назад",
+    "create": "Создать",
+    "update": "Обновить",
+    "view": "Просмотр",
+    "delete": "Удалить",
+    "save": "Сохранить",
+    "close": "Закрыть",
+    "submit": "Отправить",
+    "id": "ID",
+    "createdAt": "Дата создания",
+    "updatedAt": "Дата обновления",
+    "from": "Начало даты",
+    "to": "Конец даты",
+    "successCreated": "Успешно создано",
+    "successUpdated": "Успешно обновлено",
+    "successDeleted": "Успешно удалено",
+    "successUploaded": "Успешно загружено",
+    "deleteAlert": "Вы уверены удалить ?",
+    "image": "Изображение",
+    "type": "Тип",
+    "actions": "Действия",
+    "labelRowsPerPage": "Кол-во строк по странице:",
+    "noRowsLabel": "Нет данных",
+    "logout": "Выход",
+    "unknownError": "Неизвестная ошибка"
+  },
+  "HomePage": {
+    "title": "Добро пожаловать",
+    "description": "Это главная страница"
+  },
+  "ProfilePage": {
+    "title": "Профиль",
+    "changePassword": "Изменить пароль",
+    "updateProfile": "Править профиль"
+  },
+  "ContactPage": {
+    "title": "Контакты",
+    "description": "Звоните {phone}"
+  },
+  "NotFoundPage": {
+    "title": "Страница не найдена"
+  },
+  "ErrorPage": {
+    "title": "Произошла ошибка"
+  },
+  "Validation": {
+    "string": {
+      "base": "{label} не может быть пустым",
+      "empty": "{label} не может быть пустым",
+      "email": "{label} должна быть верной почтой",
+      "min": "Поле {label} должно иметь длину от {limit} символов"
+    },
+    "number": {
+      "base": "Поле {label} должно быть числом"
+    },
+    "any": {
+      "only": "В поле {label} должно быть выбрано одна из опций",
+      "custom": "Поле {label} введено не верно"
+    },
+    "file": {
+      "type": "Можно загрузить форматы файла только png, jpg, gif",
+      "size": "Размер файла не должен первышать {size}"
+    }
+  },
+  "LoginPage": {
+    "title": "Вход",
+    "fields": {
+      "email": "Почта",
+      "password": "Пароль"
+    },
+    "submit": "Отправить"
+  },
+  "ProductsPage": {
+    "title": "Продукты",
+    "create": "Создать продукт"
+  },
+  "ProductPage": {
+    "title": "Продукт",
+    "update": "Править продукт",
+    "delete": "Удалить продукт",
+    "view": "Просмотр продукта"
+  },
+  "Product": {
+    "name": "Название",
+    "description": "Описание",
+    "image": "Изображение"
+  },
+  "UsersPage": {
+    "title": "Пользователи",
+    "create": "Создать пользователя"
+  },
+  "UserPage": {
+    "title": "Пользователь",
+    "update": "Править пользователя",
+    "delete": "Удалить пользователя",
+    "view": "Просмотр пользователя"
+  },
+  "User": {
+    "name": "Имя",
+    "email": "Почта",
+    "password": "Пароль",
+    "newPassword": "Новый пароль",
+    "currentPassword": "Нынешний пароль",
+    "status": "Статус",
+    "age": "Возраст",
+    "sex": "Пол",
+    "sexOptions": {
+      "male": "Мужчина",
+      "female": "Женщина"
+    },
+    "statusOptions": {
+      "enabled": "Активный",
+      "disabled": "Отключен"
+    }
+  },
+  "FilesPage": {
+    "title": "Файлы"
+  },
+  "FilePage": {
+    "title": "Файл",
+    "delete": "Удалить файл",
+    "view": "Просмотр файла"
+  },
+  "File": {
+  },
+  "PsychologistsPage": {
+    "title": "Психологи"
+  },
+  "PsychologistPage": {
+    "title": "Психолог",
+    "themesCount": "{count, plural, one {одна тема} few {# темы} many {# тем} other {# темы}}",
+    "onlineStatus": "{gender, select, female {Была} male {Был} other {Было}}"
+  },
+  "Psychologist": {
+    "name": "Имя",
+    "age": "Возраст",
+    "sex": "Пол",
+    "sexOptions": {
+      "male": "Мужчина",
+      "female": "Женщина"
+    }
+  }
+}

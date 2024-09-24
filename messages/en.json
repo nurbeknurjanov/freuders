@@ -1,0 +1,148 @@
+{
+  "Common": {
+    "home": "Home",
+    "search": "Search",
+    "reset": "Reset",
+    "back": "Back",
+    "create": "Create",
+    "update": "Update",
+    "view": "View",
+    "delete": "Delete",
+    "save": "Save",
+    "close": "Close",
+    "submit": "Submit",
+    "id": "ID",
+    "createdAt": "Created date",
+    "updatedAt": "Updated date",
+    "from": "Start date",
+    "to": "End date",
+    "successCreated": "Successfully created",
+    "successUpdated": "Successfully updated",
+    "successDeleted": "Successfully deleted",
+    "successUploaded": "Successfully uploaded",
+    "deleteAlert": "Are you sure to delete ?",
+    "image": "Image",
+    "type": "Type",
+    "actions": "Actions",
+    "labelRowsPerPage": "Rows per page:",
+    "noRowsLabel": "No rows",
+    "logout": "Logout",
+    "unknownError": "Unknown error"
+  },
+  "HomePage": {
+    "title": "Welcome",
+    "description": "This is welcome page"
+  },
+  "ProfilePage": {
+    "title": "Profile",
+    "changePassword": "Change password",
+    "updateProfile": "Update profile"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Call {phone}"
+  },
+  "NotFoundPage": {
+    "title": "Page not found"
+  },
+  "ErrorPage": {
+    "title": "Error occurred"
+  },
+  "Validation": {
+    "string": {
+      "base": "{label} is not allowed to be empty",
+      "empty": "{label} is not allowed to be empty",
+      "email": "{label} must be a valid email",
+      "min": "{label} length must be at least {limit} characters long"
+    },
+    "number": {
+      "base": "{label} must be a number"
+    },
+    "any": {
+      "only": "At {label} one of options must be selected",
+      "custom": "{label} is invalid"
+    },
+    "file": {
+      "type": "Only png, jpg, gif format image files",
+      "size": "Size of file can not exceed {size}"
+    }
+  },
+  "LoginPage": {
+    "title": "Login",
+    "fields": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "submit": "Submit"
+  },
+  "ProductsPage": {
+    "title": "Products",
+    "create": "Create product"
+  },
+  "ProductPage": {
+    "title": "Product",
+    "update": "Update product",
+    "delete": "Delete product",
+    "view": "View product"
+  },
+  "Product": {
+    "name": "Name",
+    "description": "Description",
+    "image": "Image"
+  },
+  "UsersPage": {
+    "title": "Users",
+    "create": "Create user"
+  },
+  "UserPage": {
+    "title": "User",
+    "update": "Update user",
+    "delete": "Delete user",
+    "view": "View user"
+  },
+  "User": {
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "newPassword": "New password",
+    "currentPassword": "Current password",
+    "status": "Status",
+    "age": "Age",
+    "sex": "Sex",
+    "sexOptions": {
+      "male": "Man",
+      "female": "Woman"
+    },
+    "statusOptions": {
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    }
+  },
+  "FilesPage": {
+    "title": "Files"
+  },
+  "FilePage": {
+    "title": "File",
+    "delete": "Delete file",
+    "view": "View file"
+  },
+  "File": {
+  },
+  "PsychologistsPage": {
+    "title": "Психологи"
+  },
+  "PsychologistPage": {
+    "title": "Психолог",
+    "themesCount": "{count, plural, one {одна тема} few {# темы} many {# тем} other {# темы}}",
+    "onlineStatus": "{gender, select, female {Была} male {Был} other {Было}}"
+  },
+  "Psychologist": {
+    "name": "Имя",
+    "age": "Возраст",
+    "sex": "Пол",
+    "sexOptions": {
+      "male": "Мужчина",
+      "female": "Женщина"
+    }
+  }
+}

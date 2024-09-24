@@ -1,0 +1,1 @@
+export { getPsychologistsThunk } from './getPsychologists';

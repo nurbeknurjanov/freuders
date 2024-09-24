@@ -1,0 +1,91 @@
+@import 'css/breakpoints';
+@import 'css/functions';
+
+.filtersContent {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 80px;
+  row-gap: 36px;
+  margin-bottom: 24px;
+
+  @include resolutionDown($desktop) {
+    grid-template-columns: calc(50% - 4px) calc(50% - 4px);
+    column-gap: 8px;
+    row-gap: 16px;
+  }
+
+  @include resolutionDown($tablet) {
+    grid-template-columns: auto;
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  label {
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+    line-height: 18px;
+    @include resolutionDown($tablet) {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+
+.rowAgeContainer {
+  display: flex;
+  flex-direction: column;
+  @include resolutionDown($tablet) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    label {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.rowAge {
+  display: flex;
+  gap: 8px;
+}
+
+.formControlAge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+
+  label {
+    width: fit-content;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    @include resolutionDown($tablet) {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+
+.button {
+  display: flex;
+  align-items: flex-end;
+
+  button {
+    height: 40px;
+    width: 100%;
+    font-weight: 700;
+  }
+}
+
+
+.from, .to {
+  width: 88px;
+
+  @include resolutionDown($tablet) {
+    width: 65px;
+  }
+}

@@ -1,0 +1,110 @@
+@import 'css/breakpoints';
+@import 'css/functions';
+
+.psychologistContent {
+}
+
+.imgContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #CCCCCC;
+
+  img, svg {
+    max-width: 350px;
+    width: 100%;
+  }
+}
+
+.descriptionContainer {
+
+}
+
+.title {
+  position: relative;
+  margin: 16px 0 8px;
+  font-size: 26px;
+  line-height: 26px;
+  @include resolutionDown($tablet) {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+.themes {
+  font-size: 18px;
+  line-height: 18px;
+  font-style: italic;
+  color: #666666;
+  span {
+    color: #999999;
+    @include resolutionDown($tablet) {
+      display: none;
+    }
+  }
+
+  @include resolutionDown($tablet) {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+.online {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background: #37B86B;
+  position: absolute;
+  margin-top: -4px;
+  margin-left: 6px;
+
+  @include resolutionDown($tablet) {
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    margin-left: 4px;
+  }
+}
+
+.onlineStatus {
+  color: #CCCCCC;
+  font-weight: 500;
+  @include resolutionDown($tablet) {
+    display: none;
+  }
+}
+
+.rating {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 2px;
+  @include resolutionDown($tablet) {
+    left: 4px;
+    top: 4px;
+    width: 28px;
+    height: 28px;
+  }
+
+  div {
+    font-size: 8px;
+    line-height: 8px;
+    margin-bottom: 4px;
+    @include resolutionDown($tablet) {
+      font-size: 4px;
+      line-height: 4px;
+    }
+  }
+  span {
+    line-height: 1rem;
+  }
+}
