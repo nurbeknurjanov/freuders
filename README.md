@@ -1,4 +1,4 @@
-The DEMO of this is [here](https://psychologists-ten.vercel.app/psychologists).
+The DEMO of this is [here](https://freuders.vercel.app/psychologists).
 
 ## Getting Started
 
